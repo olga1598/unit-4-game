@@ -1,0 +1,76 @@
+
+body {
+    background-color: rgb(189, 245, 245);
+    border: 10px dashed white;
+    box-shadow: inset 0px 0px 50px 10px rgba(25, 158, 158, 0.897);
+}
+
+
+h1 {
+    text-align: center;
+    color: red; 
+    text-shadow: 2px 4px 4px grey;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.rules {
+    text-align: center;
+    background-color: aqua;
+    width: 800px;
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: 0 0 0 5px aqua;
+    padding: 5px;
+}
+
+#random, .total {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.tracking {
+    width: 170px;
+    height: 130px;
+    background-color: rgb(9, 128, 128);
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 0 5px rgb(3, 131, 131);
+    margin: auto;
+}
+
+#win, #lost {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    font-style: bold;    
+}
+
+#win {
+    padding-top: 25px;
+}
+
+.crystal {
+    margin-left: 230px;    
+}
+
+.finish {
+    position: absolute;
+    margin-left: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    padding-top: 300px;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 5px rgb(3, 131, 131);
+    background-color: rgb(134, 248, 248);
+    width: 900px;
+    height: 320px;
+    box-shadow: inset 0px 0px 100px 40px rgba(25, 158, 158, 0.897);
+    border: 10px dashed white;
+
+    
+}
